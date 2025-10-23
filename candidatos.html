@@ -98,13 +98,13 @@
   <div id="salta-elec-2025-widget" role="region" aria-label="Listas y candidatos de Salta 2025">
     <div class="sew-wrap">
       <header class="sew-header">
-        <h2 class="sew-title">SALTA 2025 ∑ LISTAS Y CANDIDATOS</h2>
+        <h2 class="sew-title">SALTA 2025 ¬∑ LISTAS Y CANDIDATOS</h2>
         <div class="sew-controls">
           <button class="sew-tab" data-chamber="diputados" aria-pressed="true">Diputados</button>
           <button class="sew-tab" data-chamber="senadores" aria-pressed="false">Senadores</button>
           <label class="sew-search">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 21l-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15a7.5 7.5 0 0 1 0 15z" stroke="currentColor" stroke-width="1.6"/></svg>
-            <input id="sew-q" placeholder="Buscar frente o candidatoÖ" aria-controls="sew-grid" />
+            <input id="sew-q" placeholder="Buscar frente o candidato‚Ä¶" aria-controls="sew-grid" />
           </label>
         </div>
       </header>
@@ -112,7 +112,7 @@
       <section id="sew-grid" class="sew-grid" aria-live="polite"></section>
 
       <footer class="sew-foot">
-        <div class="sew-meta">Fuente: datos provistos por la redacciÛn ∑ Actualizado: 23/10/2025</div>
+        <div class="sew-meta">Fuente: datos provistos por la redacci√≥n ¬∑ Actualizado: 23/10/2025</div>
         <button id="sew-copy" class="sew-btn-copy" type="button">Copiar EMBED</button>
       </footer>
     </div>
@@ -121,18 +121,18 @@
   <script>
     // =================== DATOS ===================
     const SEW_DATA = [
-      { key:'frente_izquierda', nombre:'Frente de Izquierda y de Trabajadores - Unidad', foto:'https://uscdn.eltribuno.com/102025/1761253345062.jpg', color:'#d32f2f', diputados:['Andrea Villegas','Jes˙s Choque','Carmen Venencia'], senadores:['Claudio Del Pla','Daniela Planes'] },
-      { key:'fuerza_patria', nombre:'Fuerza Patria', foto:'https://uscdn.eltribuno.com/102025/1761253345824.jpg', color:'#0e4bb1', diputados:['Emiliano Estrada','Mercedes Figueroa','Carlos Rodas'], senadores:['Juan Manuel Urtubey','Nora GimÈnez'] },
-      { key:'lla', nombre:'La Libertad Avanza', foto:'https://uscdn.eltribuno.com/102025/1761253338359.jpg', color:'#7c3aed', diputados:['Gabriela Flores','Carlos Ra˙l Zapata','Paola Alexandra MielÒik'], senadores:['MarÌa Emilia Orozco','Gonzalo Guzm·n Coraita'] },
-      { key:'mas', nombre:'Movimiento al Socialismo', foto:'https://uscdn.eltribuno.com/102025/1761253344474.jpg', color:'#c62828', diputados:['Emilio Ulises Fern·ndez Ortiz','B·rbara SofÌa Marinaro','Cristian JosÈ Sanconte Cruz coroborar'], senadores:['Marcos Tognolini','Marcela Viviana LÛpez'] },
-      { key:'pv', nombre:'Partido de la Victoria', foto:'https://uscdn.eltribuno.com/102025/1761253341906.jpg', color:'#ef4444', diputados:['Marcela  Jes˙s','Guido Giacosa','Blanca ChacÛn Dorr'], senadores:['Sergio ìOsoî Leavy','Laura Cartuccia'] },
-      { key:'renacer', nombre:'Partido Renacer', foto:'https://uscdn.eltribuno.com/102025/1761253343795.jpg', color:'#16a34a', diputados:['Nicol·s Vedia','Luciana BelÈn Latorre','Pablo AgustÌn Muro Sanmill·n'], senadores:['Francisco MartÌn Rivas Vila','Carina MarÌa ¡ngela Milano'] },
-      { key:'po', nombre:'PolÌtica Obrera', foto:'https://uscdn.eltribuno.com/102025/1761253341217.jpg', color:'#b91c1c', diputados:['Julio Quintana','Georgia del Milagro Romero','Cristian Rafael Pereyra'], senadores:['Violeta Gil','Nahuel Gustavo LÛpez'] },
-      { key:'pls', nombre:'Primero Los SalteÒos', foto:'https://uscdn.eltribuno.com/102025/1761253340653.jpg', color:'#0ea5e9', diputados:['Bernardo Biella','Oriana NÈvora','Juan Cruz Cura'], senadores:['Flavia RoyÛn','Nacho Jars˙n'] },
-      { key:'ucr', nombre:'UniÛn CÌvica Radical', foto:'https://uscdn.eltribuno.com/102025/1761253343282.jpg', color:'#dc2626', diputados:['Soledad Farf·n','Ren·n Castellanos','Fabiana Beky'], senadores:['Natalio Iglesias','Graciela Morales'] }
+      { key:'frente_izquierda', nombre:'Frente de Izquierda y de Trabajadores - Unidad', foto:'https://uscdn.eltribuno.com/102025/1761253345062.jpg', color:'#d32f2f', diputados:['Andrea Villegas','Jes√∫s Choque','Carmen Venencia'], senadores:['Claudio Del Pla','Daniela Planes'] },
+      { key:'fuerza_patria', nombre:'Fuerza Patria', foto:'https://uscdn.eltribuno.com/102025/1761253345824.jpg', color:'#0e4bb1', diputados:['Emiliano Estrada','Mercedes Figueroa','Carlos Rodas'], senadores:['Juan Manuel Urtubey','Nora Gim√©nez'] },
+      { key:'lla', nombre:'La Libertad Avanza', foto:'https://uscdn.eltribuno.com/102025/1761253338359.jpg', color:'#7c3aed', diputados:['Gabriela Flores','Carlos Ra√∫l Zapata','Paola Alexandra Miel√±ik'], senadores:['Mar√≠a Emilia Orozco','Gonzalo Guzm√°n Coraita'] },
+      { key:'mas', nombre:'Movimiento al Socialismo', foto:'https://uscdn.eltribuno.com/102025/1761253344474.jpg', color:'#c62828', diputados:['Emilio Ulises Fern√°ndez Ortiz','B√°rbara Sof√≠a Marinaro','Cristian Jos√© Sanconte Cruz coroborar'], senadores:['Marcos Tognolini','Marcela Viviana L√≥pez'] },
+      { key:'pv', nombre:'Partido de la Victoria', foto:'https://uscdn.eltribuno.com/102025/1761253341906.jpg', color:'#ef4444', diputados:['Marcela  Jes√∫s','Guido Giacosa','Blanca Chac√≥n Dorr'], senadores:['Sergio ‚ÄúOso‚Äù Leavy','Laura Cartuccia'] },
+      { key:'renacer', nombre:'Partido Renacer', foto:'https://uscdn.eltribuno.com/102025/1761253343795.jpg', color:'#16a34a', diputados:['Nicol√°s Vedia','Luciana Bel√©n Latorre','Pablo Agust√≠n Muro Sanmill√°n'], senadores:['Francisco Mart√≠n Rivas Vila','Carina Mar√≠a √Ångela Milano'] },
+      { key:'po', nombre:'Pol√≠tica Obrera', foto:'https://uscdn.eltribuno.com/102025/1761253341217.jpg', color:'#b91c1c', diputados:['Julio Quintana','Georgia del Milagro Romero','Cristian Rafael Pereyra'], senadores:['Violeta Gil','Nahuel Gustavo L√≥pez'] },
+      { key:'pls', nombre:'Primero Los Salte√±os', foto:'https://uscdn.eltribuno.com/102025/1761253340653.jpg', color:'#0ea5e9', diputados:['Bernardo Biella','Oriana N√©vora','Juan Cruz Cura'], senadores:['Flavia Roy√≥n','Nacho Jars√∫n'] },
+      { key:'ucr', nombre:'Uni√≥n C√≠vica Radical', foto:'https://uscdn.eltribuno.com/102025/1761253343282.jpg', color:'#dc2626', diputados:['Soledad Farf√°n','Ren√°n Castellanos','Fabiana Beky'], senadores:['Natalio Iglesias','Graciela Morales'] }
     ];
 
-    // =================== L”GICA ===================
+    // =================== L√ìGICA ===================
     (function initSEW(){
       const grid = document.getElementById('sew-grid');
       const tabs = Array.from(document.querySelectorAll('.sew-tab'));
@@ -171,7 +171,7 @@
               <img class="sew-logo" src="${p.foto}" alt="Logo/Foto del frente ${p.nombre}" loading="lazy" />
               <div class="sew-names">
                 <div class="sew-party">${p.nombre}</div>
-                <div class="sew-sub">${chamber === 'diputados' ? 'Lista de candidatos a Diputados' : 'FÛrmula para Senadores'}</div>
+                <div class="sew-sub">${chamber === 'diputados' ? 'Lista de candidatos a Diputados' : 'F√≥rmula para Senadores'}</div>
               </div>
               <span class="sew-chip" style="border-color:${hexAlpha(p.color, .35)}; background:${hexAlpha(p.color, .12)}; color:${bestText(p.color)};">${chamber === 'diputados' ? 'Diputados' : 'Senadores'}</span>
             </div>
